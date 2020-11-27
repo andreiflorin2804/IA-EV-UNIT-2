@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ro" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Rețea personală - Andrei Costescu</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div id="header">
+  <h1>Andrei-Florin COSTESCU</h1>
+  <a href="mailto:andreiflorin2804@outlook.com">andreiflorin2804@outlook.com</a> | <a href="mailto:Costescu.Ma.Andrei@utcluj.didatec.ro">costescu.ma.andrei@utcluj.didatec.ro</a>
+  </div>
+  <div id="retea">
+    <h3>Structura rețelei personale și accesul la internet</h3>
+    <img src="structuraretea.png"</img>
+    <h3>Caracteristicile conexiunii la rețea</h3>
+    <ul>
+      <li>Adresa MAC: B0-C0-90-C7-B7-A2</li>
+      <li>Adresa IP: 192.168.0.103</li>
+      <li>Debit download: 240 Mbps</li>
+      <li>Debit upload: 150 Mbps</li>
+  </div>
+  <div>
+    <h3>Specificații tehnice ale stației principale de lucru</h3>
+    <table>
+      <th>Denumire componentă</th>
+      <th>Producător</th>
+      <th>Parametri</th>
+      <tr>
+        <td>Intel® Core™ i7-6700HQ Processor</td>
+        <td>Intel</td>
+        <td>2.6 GHz(Turbo 3.5 GHz), 6 MB L3 Cache, 14 nm, 4C8T, 45W</td>
+      </tr>
+
+      <tr>
+        <td>Corsair ValueSelect</td>
+        <td>Corsair</td>
+        <td>8 GB, DDR4, 2133 MHz, CL15, 1.2V, SODIMM</td>
+      </tr>
+
+      <tr>
+        <td>NVIDIA GeForce GTX 950M</td>
+        <td>NVIDIA</td>
+        <td>4GB, GDDR5, 128-bit, 914 MHz, 28nm</td>
+      </tr>
+    </table>
+  </div>
+  <div id="transform1" ondblclick="transform(1)" style="text-align:center;font-weight:bold;">
+    <h3>Utilizarea resurselor</h3>
+    CPU<img src="monitor1.png" style="width:40%;">
+    Memorie<img src="monitor2.png" style="width:40%;">
+    Stocare<img src="monitor3.png" style="width:40%;">
+    Rețea și porturi<img src="monitor3.png" style="width:40%;">
+  </div>
+  <div id="transform2" ondblclick="transform(2)">
+    <h3>Utilizarea resurselor (slideshow)</h3>
+    <div class="slideshow-container">
+  <div id="slide1" class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="monitor1.png" style="width:100%">
+    <div class="text">CPU</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="monitor2.png" style="width:100%">
+    <div class="text">Memorie</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="monitor3.png" style="width:100%">
+    <div class="text">Stocare</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="monitor4.png" style="width:100%">
+    <div class="text">Rețea și porturi</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+  </div>
+</body>
+</html>
